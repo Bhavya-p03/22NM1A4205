@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Extra minimal custom styles */
+body {
+  @apply bg-gradient-to-br from-blue-50 to-blue-100 min-h-screen flex justify-center items-center;
+}
